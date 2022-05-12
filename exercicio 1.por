@@ -12,13 +12,13 @@ programa
 			se (qnt == 1){
 				escreva("\nO preço é U$15,00 por unidade")								
 			}//fim se
-				senao se (qnt >2 e qnt <=4){
+				senao se (qnt >=2 e qnt <=4){
 				
 					escreva("\nEntre 2 até 4 pen-drives,o preço sai à U$ 13.50 por unidade : ")
 					precoTotal = preco+ ( 13.5 * qnt)
 					escreva("preco total: ", precoTotal)
 			}//fim senao se
-				senao se (qnt >5 e qnt <=10){
+				senao se (qnt >=5 e qnt <=10){
 					
 					escreva("\nEntre 5 até 10 pen-drives,o preço sai à U$ 11.30 por unidade :")
 					precoTotal = preco +( 11.3 * qnt)
